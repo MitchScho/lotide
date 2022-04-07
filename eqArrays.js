@@ -14,9 +14,9 @@ const eqArrays = function(arrOne, arrTwo) {
   //Return true if arrays match
   return true;
 };
-console.log(eqArrays([1, 2, 3], [1, 2, 3, 4]));
-console.log(eqArrays([1, 2, 3], [1, 2, 3]));
-console.log(eqArrays([1, 2, 3], [3, 2, 3]));
+//console.log(eqArrays([1, 2, 3], [1, 2, 3, 4]));
+//console.log(eqArrays([1, 2, 3], [1, 2, 3]));
+//console.log(eqArrays([1, 2, 3], [3, 2, 3]));
 
 const assertArraysEqual = function(actual, expected) {
   const result = eqArrays(actual, expected);
@@ -27,4 +27,4 @@ const assertArraysEqual = function(actual, expected) {
   }
 };
 
-assertArraysEqual([1, 2, 3], [1, 2, 3]);
+//assertArraysEqual([1, 2, 3], [1, 2, 3]);
