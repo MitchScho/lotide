@@ -52,3 +52,4 @@ assertArraysEqual(emptyArray, wordControl);
 //const results1 = map(words, word => word[0]);
 
 //const numbers1 = [1, 2, 3, 4, 5, 6, 7];
+module.exports = map;

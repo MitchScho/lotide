@@ -58,3 +58,5 @@ const emptyArray = [];
 assertArraysEqual(numResults, numControl);
 assertArraysEqual(wordResults, wordControl);
 assertArraysEqual(emptyArray, emptyArray);
+
+module.exports = takeUntil;
